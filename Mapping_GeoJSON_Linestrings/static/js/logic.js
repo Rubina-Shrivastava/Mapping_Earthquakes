@@ -121,13 +121,16 @@ let myStyle = {
   color: "#ffffa1",
   weight: 2
 }
-
+var link = "static/data/torontoRoutes.json"
 // Grabbing our GeoJSON data.
-d3.json(torontoHoods).then(function(data) {
-L.geoJson(data,{
-  style : myStyle,
-  onEachFeature : function(feature,layer) {
-layer.bindPopup("<h3> Airline : "+ feature.properties.airline + "</h3> <hr> <h3> Destination:" +feature.properties.dst +"</h3>");
-}
-}).addTo(map);
+// Grabbing our GeoJSON data.
+d3.json(link).then(function(data) {
+  // Creating a GeoJSON layer with the retrieved data
+  L.geoJson(data,{
+    onEachFeature: function(feature, layer) {
+           console.log(layer);
+           layer.bindPopup("<h3>" + "Airport Code: " + feature.properties.faa +
+           "</h3><hr><p>" + feature.properties.name + "</p>");
+        }    
+      }).addTo(map);
 });
