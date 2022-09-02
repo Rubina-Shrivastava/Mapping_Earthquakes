@@ -106,7 +106,7 @@ L.control.layers(baseMaps).addTo(map);
 // streets.addTo(map);
 
 // Accessing the airport GeoJSON URL
-let torontoHoods = "C:\Users\rubin\Mapping_Earthquakes\torontoNeighborhoods.json";
+let torontoHoods = "static/data/torontoNeighborhoods.json";
 
 // // Grabbing our GeoJSON data.
 // d3.json(torontoHoods).then(function(data) {
