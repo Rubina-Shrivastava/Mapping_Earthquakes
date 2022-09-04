@@ -8,7 +8,7 @@
 ### we can select any option from view and layers to see our map,some example:
 ## All Three Layer Togather in Satellite View
 ![All Three Layer Togather In Satellite view](https://github.com/Rubina-Shrivastava/Mapping_Earthquakes/blob/main/images/final%20satellite.png)
-##Major Earthquakes in Dark View
+## Major Earthquakes in Dark View
 ![Major Earthquakes in Dark View](https://github.com/Rubina-Shrivastava/Mapping_Earthquakes/blob/main/images/darknavigtion_majorearthquakes.png)
 ## Tectonic Plates in Satelite View
 ![Tectonic Plates in Satelite View](https://github.com/Rubina-Shrivastava/Mapping_Earthquakes/blob/main/images/satellite_tectonicplates.png)
